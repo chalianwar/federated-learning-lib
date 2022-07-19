@@ -1,13 +1,13 @@
 ## Create docker container image
 
-Install Docker engine by following instructions from official Docker webpage:
+Install Docker engine by following instructions from the official Docker webpage:
 https://docs.docker.com/engine/install/
 
 Next, use Dockerfile provided in the repository to create a container image.
 
 `docker build . -t ibmfl-lib`
 
-You can check the available container images by issues `docker images` command. Next, run the newly created image in an interactive mode.
+You can check that the newly created image (ibmfl-lib) is locally available by issuing the `docker images` command. Next, run the newly created image in an interactive mode.
 
 `docker run -it ibmfl-lib /bin/bash`
 
